@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevMarket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">💼 <span>DevMarket</span></div>
+    <div class="controls">
+      <button id="adminBtn">Связаться с админом</button>
+      <div id="userGreeting"></div>
+      <button id="langToggle">🌐</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="addServiceSection">
+      <h2>Добавить услугу</h2>
+      <input type="text" id="serviceName" placeholder="Название услуги">
+      <textarea id="serviceDesc" placeholder="Описание"></textarea>
+      <input type="text" id="servicePrice" placeholder="Цена (в $)">
+      <input type="text" id="serviceUser" placeholder="Ваш Telegram">
+      <button id="addServiceBtn">Добавить</button>
+    </section>
+
+    <section id="servicesSection">
+      <h2>Услуги</h2>
+      <div id="servicesList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 <b>DevMarket</b> | <a href="https://t.me/DevMarket2" target="_blank">@DevMarket2</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
